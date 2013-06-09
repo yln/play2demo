@@ -18,7 +18,7 @@ public class BieteAnzeige extends Controller {
         return ok(biete.render(model));
     }
 
-
+    // http://stackoverflow.com/questions/16135716/how-to-use-intellij-with-play-framework-and-scala
 
     private static BieteAnzeigeModel createBieteAnzeigeModel() {
         BieteAnzeigeModel m = new BieteAnzeigeModel();
