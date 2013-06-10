@@ -32,7 +32,7 @@ public class BieteAnzeige extends Controller {
         PreisModel m = new PreisModel();
         m.typ = typ;
         m.preisAbLager = new BigDecimal(preisAbLager);
-        m.presFreiKunde = new BigDecimal(preisFreiKunde);
+        m.preisFreiKunde = new BigDecimal(preisFreiKunde);
         return m;
     }
 

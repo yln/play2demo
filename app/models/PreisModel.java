@@ -12,5 +12,5 @@ import java.math.BigDecimal;
 public class PreisModel {
     public String typ;
     public BigDecimal preisAbLager;
-    public BigDecimal presFreiKunde;
+    public BigDecimal preisFreiKunde;
 }
